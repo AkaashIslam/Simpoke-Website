@@ -1,0 +1,86 @@
+body{    
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.navbar-light .navbar-brand{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    text-align: center;
+    margin-right: 1rem;
+    
+}
+
+.navbar-light .navbar-nav .nav-link.active{
+    color: rgb(255, 255, 255);
+    
+}
+.navbar-light .navbar-nav .nav-link.active:hover{
+    background-color:tomato;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+}
+.future{
+    padding: 150px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-image: url(photos-5.jpg);
+    background-attachment:fixed;
+    background-position: right;
+    
+}
+
+.future-color{
+    color: tomato;
+}
+
+.btn-color{
+    color: tomato;  
+    border-color: rgb(255, 255, 255);
+    
+    border-radius:  5px;
+}
+.btn-color:hover{
+    background-color: tomato;
+}
+.our-color{
+    color: #0d6efd;
+
+    
+}
+.card{
+    border-radius: 10px;
+    box-shadow: 5px 10px 10px 2px rgb(156, 156, 160);
+    padding: 5px;
+    margin: 7px;
+    
+
+}
+
+.card-body{
+    background-image: url(photos-5.jpg);
+    background-attachment: fixed;
+    background-position: right;
+    color:white;
+    text-align: center;
+    padding: 40px;
+}
+.text-uppercase{
+    padding: 30px;
+    margin: 10px 10px 10px;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    
+}
+.text-size{
+    padding: 20px;
+    margin: -10px 10px 5px;
+    font-size: 15px;
+}
+.card-img-top{
+    border: 2px;
+    
+    border-color: rgb(255, 0, 0);
+    padding: 2px;
+    
+}
